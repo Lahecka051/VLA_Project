@@ -1,3 +1,0 @@
-[console_scripts]
-imu_publisher = ebimu_driver.imu_publisher:main
-
