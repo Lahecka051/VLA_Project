@@ -1,0 +1,7 @@
+
+path: C:\github\VLA\yolo_format
+train: images/train
+val: images/val
+nc: 10
+names: ['Fishing_Boat', 'Merchant_Ship', 'Warship', 'Person', 'Bird', 'Fixed_Wing', 'Rotary_Wing', 'UAV', 'Leaflet', 'Trash_Bomb']
+    
