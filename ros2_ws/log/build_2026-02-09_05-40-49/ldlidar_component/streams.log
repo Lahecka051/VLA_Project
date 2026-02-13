@@ -1,0 +1,56 @@
+[0.027s] Invoking command in '/home/laheckaf/ros2_ws/build/ldlidar_component': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/laheckaf/ros2_ws/install/jetson_detection:/opt/ros/humble /usr/bin/cmake /home/laheckaf/ros2_ws/src/ldrobot-lidar-ros2/ldlidar_component -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/laheckaf/ros2_ws/install/ldlidar_component
+[0.142s] -- The C compiler identification is GNU 11.4.0
+[0.236s] -- The CXX compiler identification is GNU 11.4.0
+[0.259s] -- Detecting C compiler ABI info
+[0.398s] -- Detecting C compiler ABI info - done
+[0.422s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.423s] -- Detecting C compile features
+[0.425s] -- Detecting C compile features - done
+[0.433s] -- Detecting CXX compiler ABI info
+[0.586s] -- Detecting CXX compiler ABI info - done
+[0.599s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.599s] -- Detecting CXX compile features
+[0.600s] -- Detecting CXX compile features - done
+[0.601s] --  * Release Mode
+[0.601s] -- * Found ROS2 humble
+[0.601s] -- * ROS2 humble is officially supported by this package.
+[0.604s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.883s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.008s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.078s] -- Found rclcpp_lifecycle: 16.0.17 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.164s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.171s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.185s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.205s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.232s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.307s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.311s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.453s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.499s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.573s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.587s] -- Looking for pthread.h
+[1.723s] -- Looking for pthread.h - found
+[1.724s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.861s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.863s] -- Found Threads: TRUE  
+[1.983s] -- Found rclcpp_components: 16.0.17 (/opt/ros/humble/share/rclcpp_components/cmake)
+[2.056s] [31mCMake Error at CMakeLists.txt:105 (find_package):
+[2.056s]   By not providing "Findnav2_util.cmake" in CMAKE_MODULE_PATH this project
+[2.056s]   has asked CMake to find a package configuration file provided by
+[2.056s]   "nav2_util", but CMake did not find one.
+[2.056s] 
+[2.056s]   Could not find a package configuration file provided by "nav2_util" with
+[2.057s]   any of the following names:
+[2.057s] 
+[2.057s]     nav2_utilConfig.cmake
+[2.057s]     nav2_util-config.cmake
+[2.057s] 
+[2.057s]   Add the installation prefix of "nav2_util" to CMAKE_PREFIX_PATH or set
+[2.057s]   "nav2_util_DIR" to a directory containing one of the above files.  If
+[2.057s]   "nav2_util" provides a separate development package or SDK, be sure it has
+[2.057s]   been installed.
+[2.057s] 
+[2.058s] [0m
+[2.058s] -- Configuring incomplete, errors occurred!
+[2.058s] See also "/home/laheckaf/ros2_ws/build/ldlidar_component/CMakeFiles/CMakeOutput.log".
+[2.127s] Invoked command in '/home/laheckaf/ros2_ws/build/ldlidar_component' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/laheckaf/ros2_ws/install/jetson_detection:/opt/ros/humble /usr/bin/cmake /home/laheckaf/ros2_ws/src/ldrobot-lidar-ros2/ldlidar_component -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/laheckaf/ros2_ws/install/ldlidar_component

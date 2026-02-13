@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/ebimu_driver/ebimu_driver.egg-info/PKG-INFO
+writing dependency_links to ../../build/ebimu_driver/ebimu_driver.egg-info/dependency_links.txt
+writing entry points to ../../build/ebimu_driver/ebimu_driver.egg-info/entry_points.txt
+writing requirements to ../../build/ebimu_driver/ebimu_driver.egg-info/requires.txt
+writing top-level names to ../../build/ebimu_driver/ebimu_driver.egg-info/top_level.txt
+reading manifest file '../../build/ebimu_driver/ebimu_driver.egg-info/SOURCES.txt'
+writing manifest file '../../build/ebimu_driver/ebimu_driver.egg-info/SOURCES.txt'
+running build
+running build_py
+copying ebimu_driver/imu_publisher.py -> /home/laheckaf/ros2_ws/build/ebimu_driver/build/lib/ebimu_driver
+running install
+running install_lib
+copying /home/laheckaf/ros2_ws/build/ebimu_driver/build/lib/ebimu_driver/imu_publisher.py -> /home/laheckaf/ros2_ws/install/ebimu_driver/lib/python3.10/site-packages/ebimu_driver
+byte-compiling /home/laheckaf/ros2_ws/install/ebimu_driver/lib/python3.10/site-packages/ebimu_driver/imu_publisher.py to imu_publisher.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/laheckaf/ros2_ws/install/ebimu_driver/lib/python3.10/site-packages/ebimu_driver-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/ebimu_driver/ebimu_driver.egg-info to /home/laheckaf/ros2_ws/install/ebimu_driver/lib/python3.10/site-packages/ebimu_driver-0.0.0-py3.10.egg-info
+running install_scripts
+Installing imu_publisher script to /home/laheckaf/ros2_ws/install/ebimu_driver/lib/ebimu_driver
+writing list of installed files to '/home/laheckaf/ros2_ws/build/ebimu_driver/install.log'

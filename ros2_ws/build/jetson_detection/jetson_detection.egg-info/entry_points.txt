@@ -1,0 +1,6 @@
+[console_scripts]
+camera_yolo_node = jetson_detection.camera_yolo_node:main
+fusion_node = jetson_detection.fusion_node:main
+imu_node = jetson_detection.imu_node:main
+viewer_node = jetson_detection.viewer_node:main
+

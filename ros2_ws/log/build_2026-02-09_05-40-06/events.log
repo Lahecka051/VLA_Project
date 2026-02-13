@@ -1,0 +1,231 @@
+[0.000000] (-) TimerEvent: {}
+[0.000568] (-) JobUnselected: {'identifier': 'jetson_detection'}
+[0.000989] (ldlidar_sl_ros2) JobQueued: {'identifier': 'ldlidar_sl_ros2', 'dependencies': OrderedDict()}
+[0.001223] (ldlidar_sl_ros2) JobStarted: {'identifier': 'ldlidar_sl_ros2'}
+[0.014745] (ldlidar_sl_ros2) JobProgress: {'identifier': 'ldlidar_sl_ros2', 'progress': 'cmake'}
+[0.015622] (ldlidar_sl_ros2) Command: {'cmd': ['/usr/bin/cmake', '/home/laheckaf/ros2_ws/src/ldlidar_sl_ros2', '-DCMAKE_INSTALL_PREFIX=/home/laheckaf/ros2_ws/install/ldlidar_sl_ros2'], 'cwd': '/home/laheckaf/ros2_ws/build/ldlidar_sl_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', ''), ('USER', 'laheckaf'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:'), ('HOME', '/home/laheckaf'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/laheckaf/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '36.4.7'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson Orin Nano Engineering Reference Developer Kit Super'), ('SYSTEMD_EXEC_PID', '3989'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('_CONDA_ROOT', '/home/laheckaf/miniconda3'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/laheckaf/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'laheckaf'), ('JETSON_MODULE', 'NVIDIA Jetson Orin Nano (Developer kit)'), ('JETSON_SERIAL_NUMBER', '1422625001346'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'laheckaf'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/laheckaf/miniconda3/condabin:/usr/local/cuda-12.6/bin:/home/laheckaf/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mynano:@/tmp/.ICE-unix/2763,unix/mynano:/tmp/.ICE-unix/2763'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/522a4d4d_ebbf_44cf_bbc7_97208b49d20b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('GNOME_TERMINAL_SERVICE', ':1.91'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/laheckaf/ros2_ws/install/ldlidar_stl_ros2:/home/laheckaf/ros2_ws/install/jetson_detection:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/laheckaf/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', ''), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('_CONDA_EXE', '/home/laheckaf/miniconda3/bin/conda'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/laheckaf/ros2_ws/build/ldlidar_sl_ros2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/laheckaf/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/laheckaf/ros2_ws/install/jetson_detection/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CONDA_PREFIX', ''), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('JETSON_JETPACK', ''), ('CMAKE_PREFIX_PATH', '/home/laheckaf/ros2_ws/install/ldlidar_stl_ros2:/home/laheckaf/ros2_ws/install/jetson_detection:/opt/ros/humble'), ('JETSON_P_NUMBER', 'p3767-0005')]), 'shell': False}
+[0.099754] (-) TimerEvent: {}
+[0.121768] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199935] (-) TimerEvent: {}
+[0.231943] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.255139] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.300137] (-) TimerEvent: {}
+[0.396140] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.400229] (-) TimerEvent: {}
+[0.420671] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.421576] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.422888] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.432028] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.500415] (-) TimerEvent: {}
+[0.586024] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.600531] (-) TimerEvent: {}
+[0.610701] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.611695] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.613380] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.620736] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.700705] (-) TimerEvent: {}
+[0.801498] (-) TimerEvent: {}
+[0.902129] (-) TimerEvent: {}
+[0.950189] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.002292] (-) TimerEvent: {}
+[1.102915] (-) TimerEvent: {}
+[1.151505] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.203046] (-) TimerEvent: {}
+[1.231600] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.239026] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.252506] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.272764] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.297726] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.303120] (-) TimerEvent: {}
+[1.367064] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.371054] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.403240] (-) TimerEvent: {}
+[1.503722] (-) TimerEvent: {}
+[1.507843] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.563982] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.603876] (-) TimerEvent: {}
+[1.631452] (ldlidar_sl_ros2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.644954] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.704059] (-) TimerEvent: {}
+[1.777480] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.778747] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.804223] (-) TimerEvent: {}
+[1.904843] (-) TimerEvent: {}
+[1.928021] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.932199] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.005025] (-) TimerEvent: {}
+[2.056516] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[2.105160] (-) TimerEvent: {}
+[2.106673] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.205298] (-) TimerEvent: {}
+[2.264627] (ldlidar_sl_ros2) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.270967] (ldlidar_sl_ros2) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.271362] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/laheckaf/ros2_ws/src/ldlidar_sl_ros2/include;/home/laheckaf/ros2_ws/src/ldlidar_sl_ros2/ldlidar_driver/include\n'}
+[2.271502] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.277735] (ldlidar_sl_ros2) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[2.278060] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[2.279168] (ldlidar_sl_ros2) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.281226] (ldlidar_sl_ros2) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.282601] (ldlidar_sl_ros2) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.288494] (ldlidar_sl_ros2) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.288705] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.289884] (ldlidar_sl_ros2) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.292327] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.305456] (-) TimerEvent: {}
+[2.313319] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Generating done\n'}
+[2.320426] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Build files have been written to: /home/laheckaf/ros2_ws/build/ldlidar_sl_ros2\n'}
+[2.342955] (ldlidar_sl_ros2) CommandEnded: {'returncode': 0}
+[2.344920] (ldlidar_sl_ros2) JobProgress: {'identifier': 'ldlidar_sl_ros2', 'progress': 'build'}
+[2.347627] (ldlidar_sl_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/laheckaf/ros2_ws/build/ldlidar_sl_ros2', '--', '-j6', '-l6'], 'cwd': '/home/laheckaf/ros2_ws/build/ldlidar_sl_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', ''), ('USER', 'laheckaf'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:'), ('HOME', '/home/laheckaf'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/laheckaf/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '36.4.7'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson Orin Nano Engineering Reference Developer Kit Super'), ('SYSTEMD_EXEC_PID', '3989'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('_CONDA_ROOT', '/home/laheckaf/miniconda3'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/laheckaf/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'laheckaf'), ('JETSON_MODULE', 'NVIDIA Jetson Orin Nano (Developer kit)'), ('JETSON_SERIAL_NUMBER', '1422625001346'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'laheckaf'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/laheckaf/miniconda3/condabin:/usr/local/cuda-12.6/bin:/home/laheckaf/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mynano:@/tmp/.ICE-unix/2763,unix/mynano:/tmp/.ICE-unix/2763'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/522a4d4d_ebbf_44cf_bbc7_97208b49d20b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('GNOME_TERMINAL_SERVICE', ':1.91'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/laheckaf/ros2_ws/install/ldlidar_stl_ros2:/home/laheckaf/ros2_ws/install/jetson_detection:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/laheckaf/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', ''), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('_CONDA_EXE', '/home/laheckaf/miniconda3/bin/conda'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/laheckaf/ros2_ws/build/ldlidar_sl_ros2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/laheckaf/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/laheckaf/ros2_ws/install/jetson_detection/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CONDA_PREFIX', ''), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('JETSON_JETPACK', ''), ('CMAKE_PREFIX_PATH', '/home/laheckaf/ros2_ws/install/ldlidar_stl_ros2:/home/laheckaf/ros2_ws/install/jetson_detection:/opt/ros/humble'), ('JETSON_P_NUMBER', 'p3767-0005')]), 'shell': False}
+[2.405654] (-) TimerEvent: {}
+[2.446053] (ldlidar_sl_ros2) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/ldlidar_sl_ros2_node.dir/ldlidar_driver/src/serial_interface_linux.cpp.o\x1b[0m\n'}
+[2.446517] (ldlidar_sl_ros2) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/ldlidar_sl_ros2_node.dir/src/demo.cpp.o\x1b[0m\n'}
+[2.446776] (ldlidar_sl_ros2) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/ldlidar_sl_ros2_node.dir/ldlidar_driver/src/lipkg.cpp.o\x1b[0m\n'}
+[2.446924] (ldlidar_sl_ros2) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/ldlidar_sl_ros2_node.dir/ldlidar_driver/src/sl_transform.cpp.o\x1b[0m\n'}
+[2.447049] (ldlidar_sl_ros2) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/ldlidar_sl_ros2_node.dir/ldlidar_driver/src/ldlidar_driver.cpp.o\x1b[0m\n'}
+[2.470252] (ldlidar_sl_ros2) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/ldlidar_sl_ros2_node.dir/ldlidar_driver/src/log_module.cpp.o\x1b[0m\n'}
+[2.505812] (-) TimerEvent: {}
+[2.606470] (-) TimerEvent: {}
+[2.707213] (-) TimerEvent: {}
+[2.807956] (-) TimerEvent: {}
+[2.908687] (-) TimerEvent: {}
+[3.009394] (-) TimerEvent: {}
+[3.063359] (ldlidar_sl_ros2) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object CMakeFiles/ldlidar_sl_ros2_node.dir/ldlidar_driver/src/slbf.cpp.o\x1b[0m\n'}
+[3.109607] (-) TimerEvent: {}
+[3.210349] (-) TimerEvent: {}
+[3.311083] (-) TimerEvent: {}
+[3.411850] (-) TimerEvent: {}
+[3.512619] (-) TimerEvent: {}
+[3.613652] (-) TimerEvent: {}
+[3.714604] (-) TimerEvent: {}
+[3.815596] (-) TimerEvent: {}
+[3.916555] (-) TimerEvent: {}
+[4.017526] (-) TimerEvent: {}
+[4.118482] (-) TimerEvent: {}
+[4.219202] (-) TimerEvent: {}
+[4.319940] (-) TimerEvent: {}
+[4.420586] (-) TimerEvent: {}
+[4.521214] (-) TimerEvent: {}
+[4.621899] (-) TimerEvent: {}
+[4.722682] (-) TimerEvent: {}
+[4.823502] (-) TimerEvent: {}
+[4.924328] (-) TimerEvent: {}
+[5.025127] (-) TimerEvent: {}
+[5.125924] (-) TimerEvent: {}
+[5.226724] (-) TimerEvent: {}
+[5.327529] (-) TimerEvent: {}
+[5.428357] (-) TimerEvent: {}
+[5.529118] (-) TimerEvent: {}
+[5.629875] (-) TimerEvent: {}
+[5.730660] (-) TimerEvent: {}
+[5.831463] (-) TimerEvent: {}
+[5.932296] (-) TimerEvent: {}
+[6.033108] (-) TimerEvent: {}
+[6.133927] (-) TimerEvent: {}
+[6.234732] (-) TimerEvent: {}
+[6.335537] (-) TimerEvent: {}
+[6.436338] (-) TimerEvent: {}
+[6.537133] (-) TimerEvent: {}
+[6.637929] (-) TimerEvent: {}
+[6.738729] (-) TimerEvent: {}
+[6.839526] (-) TimerEvent: {}
+[6.940346] (-) TimerEvent: {}
+[7.041159] (-) TimerEvent: {}
+[7.141964] (-) TimerEvent: {}
+[7.242782] (-) TimerEvent: {}
+[7.343605] (-) TimerEvent: {}
+[7.444440] (-) TimerEvent: {}
+[7.545227] (-) TimerEvent: {}
+[7.646009] (-) TimerEvent: {}
+[7.746860] (-) TimerEvent: {}
+[7.847675] (-) TimerEvent: {}
+[7.948507] (-) TimerEvent: {}
+[8.049327] (-) TimerEvent: {}
+[8.150150] (-) TimerEvent: {}
+[8.250963] (-) TimerEvent: {}
+[8.351775] (-) TimerEvent: {}
+[8.452633] (-) TimerEvent: {}
+[8.553429] (-) TimerEvent: {}
+[8.654240] (-) TimerEvent: {}
+[8.755060] (-) TimerEvent: {}
+[8.855878] (-) TimerEvent: {}
+[8.956717] (-) TimerEvent: {}
+[9.057535] (-) TimerEvent: {}
+[9.158356] (-) TimerEvent: {}
+[9.259170] (-) TimerEvent: {}
+[9.360053] (-) TimerEvent: {}
+[9.460919] (-) TimerEvent: {}
+[9.561744] (-) TimerEvent: {}
+[9.662556] (-) TimerEvent: {}
+[9.763704] (-) TimerEvent: {}
+[9.864573] (-) TimerEvent: {}
+[9.965393] (-) TimerEvent: {}
+[10.066181] (-) TimerEvent: {}
+[10.166971] (-) TimerEvent: {}
+[10.267741] (-) TimerEvent: {}
+[10.368551] (-) TimerEvent: {}
+[10.469351] (-) TimerEvent: {}
+[10.570137] (-) TimerEvent: {}
+[10.670917] (-) TimerEvent: {}
+[10.771699] (-) TimerEvent: {}
+[10.872528] (-) TimerEvent: {}
+[10.973317] (-) TimerEvent: {}
+[11.074107] (-) TimerEvent: {}
+[11.174889] (-) TimerEvent: {}
+[11.275686] (-) TimerEvent: {}
+[11.376505] (-) TimerEvent: {}
+[11.477290] (-) TimerEvent: {}
+[11.578087] (-) TimerEvent: {}
+[11.678889] (-) TimerEvent: {}
+[11.779688] (-) TimerEvent: {}
+[11.880509] (-) TimerEvent: {}
+[11.981296] (-) TimerEvent: {}
+[12.082070] (-) TimerEvent: {}
+[12.182764] (-) TimerEvent: {}
+[12.283405] (-) TimerEvent: {}
+[12.384054] (-) TimerEvent: {}
+[12.484715] (-) TimerEvent: {}
+[12.585359] (-) TimerEvent: {}
+[12.626543] (ldlidar_sl_ros2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable ldlidar_sl_ros2_node\x1b[0m\n'}
+[12.685526] (-) TimerEvent: {}
+[12.786159] (-) TimerEvent: {}
+[12.886807] (-) TimerEvent: {}
+[12.987465] (-) TimerEvent: {}
+[13.078826] (ldlidar_sl_ros2) StdoutLine: {'line': b'[100%] Built target ldlidar_sl_ros2_node\n'}
+[13.087616] (-) TimerEvent: {}
+[13.103364] (ldlidar_sl_ros2) CommandEnded: {'returncode': 0}
+[13.105622] (ldlidar_sl_ros2) JobProgress: {'identifier': 'ldlidar_sl_ros2', 'progress': 'install'}
+[13.126325] (ldlidar_sl_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/laheckaf/ros2_ws/build/ldlidar_sl_ros2'], 'cwd': '/home/laheckaf/ros2_ws/build/ldlidar_sl_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', ''), ('USER', 'laheckaf'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:'), ('HOME', '/home/laheckaf'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/laheckaf/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '36.4.7'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson Orin Nano Engineering Reference Developer Kit Super'), ('SYSTEMD_EXEC_PID', '3989'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('_CONDA_ROOT', '/home/laheckaf/miniconda3'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/laheckaf/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'laheckaf'), ('JETSON_MODULE', 'NVIDIA Jetson Orin Nano (Developer kit)'), ('JETSON_SERIAL_NUMBER', '1422625001346'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'laheckaf'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/laheckaf/miniconda3/condabin:/usr/local/cuda-12.6/bin:/home/laheckaf/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mynano:@/tmp/.ICE-unix/2763,unix/mynano:/tmp/.ICE-unix/2763'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/522a4d4d_ebbf_44cf_bbc7_97208b49d20b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('GNOME_TERMINAL_SERVICE', ':1.91'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/laheckaf/ros2_ws/install/ldlidar_stl_ros2:/home/laheckaf/ros2_ws/install/jetson_detection:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/laheckaf/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', ''), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('_CONDA_EXE', '/home/laheckaf/miniconda3/bin/conda'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/laheckaf/ros2_ws/build/ldlidar_sl_ros2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/laheckaf/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/laheckaf/ros2_ws/install/jetson_detection/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CONDA_PREFIX', ''), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('JETSON_JETPACK', ''), ('CMAKE_PREFIX_PATH', '/home/laheckaf/ros2_ws/install/ldlidar_stl_ros2:/home/laheckaf/ros2_ws/install/jetson_detection:/opt/ros/humble'), ('JETSON_P_NUMBER', 'p3767-0005')]), 'shell': False}
+[13.147109] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.147621] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Installing: /home/laheckaf/ros2_ws/install/ldlidar_sl_ros2/lib/ldlidar_sl_ros2/ldlidar_sl_ros2_node\n'}
+[13.152255] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Set runtime path of "/home/laheckaf/ros2_ws/install/ldlidar_sl_ros2/lib/ldlidar_sl_ros2/ldlidar_sl_ros2_node" to ""\n'}
+[13.152513] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Installing: /home/laheckaf/ros2_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2//launch\n'}
+[13.152695] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Installing: /home/laheckaf/ros2_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2//launch/viewer_ld14.launch.py\n'}
+[13.152882] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Installing: /home/laheckaf/ros2_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2//launch/viewer_ld14p.launch.py\n'}
+[13.153065] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Installing: /home/laheckaf/ros2_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2//launch/ld14p.launch.py\n'}
+[13.153232] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Installing: /home/laheckaf/ros2_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2//launch/ld14.launch.py\n'}
+[13.153387] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Installing: /home/laheckaf/ros2_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2//rviz2\n'}
+[13.153549] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Installing: /home/laheckaf/ros2_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2//rviz2/ldlidar.rviz\n'}
+[13.153713] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Installing: /home/laheckaf/ros2_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2//scripts\n'}
+[13.153894] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Installing: /home/laheckaf/ros2_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2//scripts/delete_udev_rules.sh\n'}
+[13.154060] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Installing: /home/laheckaf/ros2_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2//scripts/ldlidar.rules\n'}
+[13.154241] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Installing: /home/laheckaf/ros2_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2//scripts/create_udev_rules.sh\n'}
+[13.154681] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Installing: /home/laheckaf/ros2_ws/install/ldlidar_sl_ros2/share/ament_index/resource_index/package_run_dependencies/ldlidar_sl_ros2\n'}
+[13.155042] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Installing: /home/laheckaf/ros2_ws/install/ldlidar_sl_ros2/share/ament_index/resource_index/parent_prefix_path/ldlidar_sl_ros2\n'}
+[13.155409] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Installing: /home/laheckaf/ros2_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/environment/ament_prefix_path.sh\n'}
+[13.155678] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Installing: /home/laheckaf/ros2_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/environment/ament_prefix_path.dsv\n'}
+[13.155941] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Installing: /home/laheckaf/ros2_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/environment/path.sh\n'}
+[13.156236] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Installing: /home/laheckaf/ros2_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/environment/path.dsv\n'}
+[13.156488] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Installing: /home/laheckaf/ros2_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/local_setup.bash\n'}
+[13.156729] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Installing: /home/laheckaf/ros2_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/local_setup.sh\n'}
+[13.156982] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Installing: /home/laheckaf/ros2_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/local_setup.zsh\n'}
+[13.157220] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Installing: /home/laheckaf/ros2_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/local_setup.dsv\n'}
+[13.157458] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Installing: /home/laheckaf/ros2_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/package.dsv\n'}
+[13.157826] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Installing: /home/laheckaf/ros2_ws/install/ldlidar_sl_ros2/share/ament_index/resource_index/packages/ldlidar_sl_ros2\n'}
+[13.158162] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Installing: /home/laheckaf/ros2_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/cmake/ldlidar_sl_ros2Config.cmake\n'}
+[13.158324] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Installing: /home/laheckaf/ros2_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/cmake/ldlidar_sl_ros2Config-version.cmake\n'}
+[13.158612] (ldlidar_sl_ros2) StdoutLine: {'line': b'-- Installing: /home/laheckaf/ros2_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/package.xml\n'}
+[13.162619] (ldlidar_sl_ros2) CommandEnded: {'returncode': 0}
+[13.187732] (-) TimerEvent: {}
+[13.220963] (ldlidar_sl_ros2) JobEnded: {'identifier': 'ldlidar_sl_ros2', 'rc': 0}
+[13.223074] (-) EventReactorShutdown: {}

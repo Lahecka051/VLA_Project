@@ -1,0 +1,20 @@
+[1.215s] Invoking command in '/home/laheckaf/ros2_ws/build/jetson_detection': PYTHONPATH=/home/laheckaf/ros2_ws/build/jetson_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/laheckaf/ros2_ws/install/jetson_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/laheckaf/ros2_ws/build/jetson_detection/build --no-deps symlink_data --force
+[1.681s] running develop
+[1.971s] running egg_info
+[1.971s] writing jetson_detection.egg-info/PKG-INFO
+[1.971s] writing dependency_links to jetson_detection.egg-info/dependency_links.txt
+[1.972s] writing entry points to jetson_detection.egg-info/entry_points.txt
+[1.972s] writing requirements to jetson_detection.egg-info/requires.txt
+[1.972s] writing top-level names to jetson_detection.egg-info/top_level.txt
+[1.976s] reading manifest file 'jetson_detection.egg-info/SOURCES.txt'
+[1.977s] writing manifest file 'jetson_detection.egg-info/SOURCES.txt'
+[1.980s] running build_ext
+[1.980s] Creating /home/laheckaf/ros2_ws/install/jetson_detection/lib/python3.10/site-packages/jetson-detection.egg-link (link to .)
+[1.982s] Installing camera_yolo_node script to /home/laheckaf/ros2_ws/install/jetson_detection/lib/jetson_detection
+[1.982s] Installing viewer_node script to /home/laheckaf/ros2_ws/install/jetson_detection/lib/jetson_detection
+[1.983s] 
+[1.983s] Installed /home/laheckaf/ros2_ws/build/jetson_detection
+[1.983s] running symlink_data
+[1.983s] symbolically linking /home/laheckaf/ros2_ws/build/jetson_detection/resource/jetson_detection -> /home/laheckaf/ros2_ws/install/jetson_detection/share/ament_index/resource_index/packages
+[1.983s] symbolically linking /home/laheckaf/ros2_ws/build/jetson_detection/package.xml -> /home/laheckaf/ros2_ws/install/jetson_detection/share/jetson_detection
+[2.071s] Invoked command in '/home/laheckaf/ros2_ws/build/jetson_detection' returned '0': PYTHONPATH=/home/laheckaf/ros2_ws/build/jetson_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/laheckaf/ros2_ws/install/jetson_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/laheckaf/ros2_ws/build/jetson_detection/build --no-deps symlink_data --force

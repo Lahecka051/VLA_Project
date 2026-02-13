@@ -1,0 +1,24 @@
+[1.211s] Invoking command in '/home/laheckaf/ros2_ws/src/ebimu_driver': PYTHONPATH=/home/laheckaf/ros2_ws/build/ebimu_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/laheckaf/ros2_ws/install/ebimu_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ebimu_driver build --build-base /home/laheckaf/ros2_ws/build/ebimu_driver/build install --record /home/laheckaf/ros2_ws/build/ebimu_driver/install.log --single-version-externally-managed install_data
+[1.660s] running egg_info
+[1.661s] writing ../../build/ebimu_driver/ebimu_driver.egg-info/PKG-INFO
+[1.668s] writing dependency_links to ../../build/ebimu_driver/ebimu_driver.egg-info/dependency_links.txt
+[1.669s] writing entry points to ../../build/ebimu_driver/ebimu_driver.egg-info/entry_points.txt
+[1.669s] writing requirements to ../../build/ebimu_driver/ebimu_driver.egg-info/requires.txt
+[1.669s] writing top-level names to ../../build/ebimu_driver/ebimu_driver.egg-info/top_level.txt
+[1.673s] reading manifest file '../../build/ebimu_driver/ebimu_driver.egg-info/SOURCES.txt'
+[1.674s] writing manifest file '../../build/ebimu_driver/ebimu_driver.egg-info/SOURCES.txt'
+[1.675s] running build
+[1.675s] running build_py
+[1.675s] copying ebimu_driver/imu_publisher.py -> /home/laheckaf/ros2_ws/build/ebimu_driver/build/lib/ebimu_driver
+[1.676s] running install
+[1.676s] running install_lib
+[1.678s] copying /home/laheckaf/ros2_ws/build/ebimu_driver/build/lib/ebimu_driver/imu_publisher.py -> /home/laheckaf/ros2_ws/install/ebimu_driver/lib/python3.10/site-packages/ebimu_driver
+[1.679s] byte-compiling /home/laheckaf/ros2_ws/install/ebimu_driver/lib/python3.10/site-packages/ebimu_driver/imu_publisher.py to imu_publisher.cpython-310.pyc
+[1.680s] running install_data
+[1.681s] running install_egg_info
+[1.686s] removing '/home/laheckaf/ros2_ws/install/ebimu_driver/lib/python3.10/site-packages/ebimu_driver-0.0.0-py3.10.egg-info' (and everything under it)
+[1.687s] Copying ../../build/ebimu_driver/ebimu_driver.egg-info to /home/laheckaf/ros2_ws/install/ebimu_driver/lib/python3.10/site-packages/ebimu_driver-0.0.0-py3.10.egg-info
+[1.688s] running install_scripts
+[1.724s] Installing imu_publisher script to /home/laheckaf/ros2_ws/install/ebimu_driver/lib/ebimu_driver
+[1.725s] writing list of installed files to '/home/laheckaf/ros2_ws/build/ebimu_driver/install.log'
+[1.793s] Invoked command in '/home/laheckaf/ros2_ws/src/ebimu_driver' returned '0': PYTHONPATH=/home/laheckaf/ros2_ws/build/ebimu_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/laheckaf/ros2_ws/install/ebimu_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ebimu_driver build --build-base /home/laheckaf/ros2_ws/build/ebimu_driver/build install --record /home/laheckaf/ros2_ws/build/ebimu_driver/install.log --single-version-externally-managed install_data

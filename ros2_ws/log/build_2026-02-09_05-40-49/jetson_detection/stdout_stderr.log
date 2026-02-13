@@ -1,0 +1,18 @@
+running develop
+running egg_info
+writing jetson_detection.egg-info/PKG-INFO
+writing dependency_links to jetson_detection.egg-info/dependency_links.txt
+writing entry points to jetson_detection.egg-info/entry_points.txt
+writing requirements to jetson_detection.egg-info/requires.txt
+writing top-level names to jetson_detection.egg-info/top_level.txt
+reading manifest file 'jetson_detection.egg-info/SOURCES.txt'
+writing manifest file 'jetson_detection.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/laheckaf/ros2_ws/install/jetson_detection/lib/python3.10/site-packages/jetson-detection.egg-link (link to .)
+Installing camera_yolo_node script to /home/laheckaf/ros2_ws/install/jetson_detection/lib/jetson_detection
+Installing viewer_node script to /home/laheckaf/ros2_ws/install/jetson_detection/lib/jetson_detection
+
+Installed /home/laheckaf/ros2_ws/build/jetson_detection
+running symlink_data
+symbolically linking /home/laheckaf/ros2_ws/build/jetson_detection/resource/jetson_detection -> /home/laheckaf/ros2_ws/install/jetson_detection/share/ament_index/resource_index/packages
+symbolically linking /home/laheckaf/ros2_ws/build/jetson_detection/package.xml -> /home/laheckaf/ros2_ws/install/jetson_detection/share/jetson_detection
