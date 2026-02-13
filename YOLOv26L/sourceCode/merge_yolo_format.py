@@ -5,11 +5,11 @@ import glob
 from tqdm import tqdm
 
 # ================= 설정 영역 =================
-BASE_PATH = r"C:\gitnconda\Swin-Transformer\원본"
+BASE_PATH = r"C:\github\VLA\원본"
 DATASET_REAL = os.path.join(BASE_PATH, "군 경계 작전 환경 내 인식 데이터")
 DATASET_SYN = os.path.join(BASE_PATH, "군 경계 작전 환경 합성 데이터")
 
-OUTPUT_DIR = r"C:\gitnconda\Swin-Transformer\yolo_format\Merged_Dataset"
+OUTPUT_DIR = r"C:\github\VLA\yolo_format\"
 
 TARGET_CLASSES = [
     "Fishing_Boat", "Merchant_Ship", "Warship", "Person", "Bird", 
